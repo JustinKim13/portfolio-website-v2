@@ -8,21 +8,25 @@ typescript,
 html,
 css,
 reactjs,
-redux,
-tailwind,
 nodejs,
-mongodb,
 git,
-figma,
 docker,
-meta,
-starbucks,
-tesla,
-shopify,
-carrent,
-jobit,
-tripguide,
-threejs,
+movierec,
+astro,
+entegral,
+denari,
+uwmadison,
+python,
+java,
+c,
+django,
+postgresql,
+flask,
+pytorch,
+aws,
+mlquiz,
+deepseekr1
+
 } from "../assets";
 
 export const navLinks = [
@@ -31,8 +35,12 @@ export const navLinks = [
   title: "About",
 },
 {
-  id: "work",
-  title: "Work",
+  id: "experience",
+  title: "Experience",
+},
+{
+  id: "works",
+  title: "Projects",
 },
 {
   id: "contact",
@@ -42,11 +50,11 @@ export const navLinks = [
 
 const services = [
 {
-  title: "Web Developer",
+  title: "CS/DS Student",
   icon: web,
 },
 {
-  title: "React Native Developer",
+  title: "Machine Learning Researcher",
   icon: mobile,
 },
 {
@@ -54,12 +62,20 @@ const services = [
   icon: backend,
 },
 {
-  title: "Content Creator",
+  title: "Curious Problem Solver",
   icon: creator,
 },
 ];
 
 const technologies = [
+{
+  name: "Python",
+  icon: python,
+},
+{
+  name: "Java",
+  icon: java,
+},
 {
   name: "HTML 5",
   icon: html,
@@ -72,42 +88,46 @@ const technologies = [
   name: "JavaScript",
   icon: javascript,
 },
+// {
+//   name: "TypeScript",
+//   icon: typescript,
+// },
 {
-  name: "TypeScript",
-  icon: typescript,
+  name: "C",
+  icon: c,
 },
 {
   name: "React JS",
   icon: reactjs,
 },
 {
-  name: "Redux Toolkit",
-  icon: redux,
-},
-{
-  name: "Tailwind CSS",
-  icon: tailwind,
-},
-{
-  name: "Node JS",
+  name: "Node/Express JS",
   icon: nodejs,
 },
 {
-  name: "MongoDB",
-  icon: mongodb,
+  name: "Django",
+  icon: django,
 },
 {
-  name: "Three JS",
-  icon: threejs,
+  name: "PostgreSQL",
+  icon: postgresql,
+},
+// {
+//   name: "Flask",
+//   icon: flask,
+// },
+{
+  name: "PyTorch",
+  icon: pytorch,
 },
 {
-  name: "git",
-  icon: git,
+  name: "AWS",
+  icon: aws,
 },
-{
-  name: "figma",
-  icon: figma,
-},
+// {
+//   name: "git",
+//   icon: git,
+// },
 {
   name: "docker",
   icon: docker,
@@ -116,150 +136,147 @@ const technologies = [
 
 const experiences = [
 {
-  title: "React.js Developer",
-  company_name: "Starbucks",
-  icon: starbucks,
-  iconBg: "#383E56",
+  title: "Software Engineer",
+  company_name: "Entegral",
+  icon: entegral,
+  iconBg: "#004a87",
+  date: "May 2025 - August 2025",
+  points: [
+    "Incoming Software Engineer Intern",
+  ],
+},
+{
+  title: "Software Engineer",
+  company_name: "Denari",
+  icon: denari,
+  iconBg: "#5032df",
   date: "March 2020 - April 2021",
   points: [
-    "Developing and maintaining web applications using React.js and other related technologies.",
-    "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    "Implementing responsive design and ensuring cross-browser compatibility.",
-    "Participating in code reviews and providing constructive feedback to other developers.",
+    "Building a RAG pipeline for accounting firms, leveraging OpenAI embeddings, TimescaleDB, and AWS S3 to ensure accurate citations, enhance real-time knowledge retrieval, and optimize query accuracy.",
   ],
 },
 {
-  title: "React Native Developer",
-  company_name: "Tesla",
-  icon: tesla,
-  iconBg: "#E6DEDD",
-  date: "Jan 2021 - Feb 2022",
+  title: "Machine Learning Engineer",
+  company_name: "Astro AI Trading",
+  icon: astro,
+  iconBg: "#00262d",
+  date: "Jun 2024 - Jan 2025",
   points: [
-    "Developing and maintaining web applications using React.js and other related technologies.",
-    "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    "Implementing responsive design and ensuring cross-browser compatibility.",
-    "Participating in code reviews and providing constructive feedback to other developers.",
+    "Led a team of 3 engineers automating data pipelines for 1,400+ sources, increasing processing speed by 28% to handle real-time financial data while ensuring high code quality through regular reviews.",
+    "Utilized GitHub Actions and Docker to simplify CI/CD pipelines, reducing deployment time to internal environments by 45% and improving test coverage in development and staging.",
+    "Designed and optimized PostgreSQL database systems for efficient retrieval of time-series data, reducing query time by 36% and scaling to handle increasing data ingestion with minimal latency.",
+    "Developed and fine-tuned stock prediction models using BERT embeddings, improving accuracy by 12%.",
   ],
 },
 {
-  title: "Web Developer",
-  company_name: "Shopify",
-  icon: shopify,
-  iconBg: "#383E56",
-  date: "Jan 2022 - Jan 2023",
+  title: "AI & Data Engineer",
+  company_name: "Astro AI Trading",
+  icon: astro,
+  iconBg: "#00262d",
+  date: "Jan 2024 - Jun 2024",
   points: [
-    "Developing and maintaining web applications using React.js and other related technologies.",
-    "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    "Implementing responsive design and ensuring cross-browser compatibility.",
-    "Participating in code reviews and providing constructive feedback to other developers.",
+    "Built sentiment analysis models with FinBERT (financial news) and VADER (social media), achieving 82% accuracy, enabling real-time insights into market sentiment for improved trading decisions.",
+    "Optimized data processing with PySpark, improving speed by 25% in distributed environments.",
+    "Contributed to stock models with RandomForestRegressor, achieving a 84% R² score.",
   ],
 },
 {
-  title: "Full stack Developer",
-  company_name: "Meta",
-  icon: meta,
-  iconBg: "#E6DEDD",
-  date: "Jan 2023 - Present",
+  title: "Undergraduate ML Researcher",
+  company_name: "University of Wisconsin, Madison",
+  icon: uwmadison,
+  iconBg: "#ffffff",
+  date: "Jun 2024 - Aug 2024",
   points: [
-    "Developing and maintaining web applications using React.js and other related technologies.",
-    "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    "Implementing responsive design and ensuring cross-browser compatibility.",
-    "Participating in code reviews and providing constructive feedback to other developers.",
+    "Trained machine learning models to predict material phase transitions from experimental datasets.",
+    "Utilized spaCy for entity recognition, identifying key material properties and enhancing data labeling by 31%, leading to more accurate predictions of material behavior and enabling more targeted experimental designs.",
   ],
-},
-];
-
-const testimonials = [
-{
-  testimonial:
-    "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-  name: "Sara Lee",
-  designation: "CFO",
-  company: "Acme Co",
-  image: "https://randomuser.me/api/portraits/women/4.jpg",
-},
-{
-  testimonial:
-    "I've never met a web developer who truly cares about their clients' success like Rick does.",
-  name: "Chris Brown",
-  designation: "COO",
-  company: "DEF Corp",
-  image: "https://randomuser.me/api/portraits/men/5.jpg",
-},
-{
-  testimonial:
-    "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-  name: "Lisa Wang",
-  designation: "CTO",
-  company: "456 Enterprises",
-  image: "https://randomuser.me/api/portraits/women/6.jpg",
 },
 ];
 
 const projects = [
 {
-  name: "Car Rent",
+  name: "ML Multiplayer Quiz Platform",
   description:
-    "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    "Developed a real-time multiplayer quiz platform with WebSocket updates and ML-powered personalized question generation using OCR for PDF processing and HuggingFace T5, supporting 100+ concurrent players.",
   tags: [
     {
       name: "react",
       color: "blue-text-gradient",
     },
     {
-      name: "mongodb",
+      name: "node.js",
       color: "green-text-gradient",
     },
     {
-      name: "tailwind",
+      name: "websocket",
       color: "pink-text-gradient",
     },
+    {
+      name: "AWS",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "OCR",
+      color: "green-text-gradient",
+    },
   ],
-  image: carrent,
+  image: mlquiz,
+  source_code_link: "https://github.com/JustinKim13/ml_quizmaker",
+},
+{
+  name: "DeepSeek R1 From Scratch",
+  description:
+    "Built DeepSeek R1 from scratch, optimizing RWKV for efficient training and inference. Trained a scaled-down variant with comparable perplexity and deployed optimized models on AWS with TensorRT acceleration.",
+  tags: [
+    {
+      name: "pytorch",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "RWKV",
+      color: "green-text-gradient",
+    },
+    {
+      name: "AWS",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "TensorRT",
+      color: "blue-text-gradient",
+    },
+  ],
+  image: deepseekr1,
   source_code_link: "https://github.com/",
 },
 {
-  name: "Job IT",
+  name: "ML Movie Recommendation App",
   description:
-    "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    "Developed a dynamic movie review platform with instant search, ratings, saving, and an 85%-accurate cosine similarity recommendation system, secured with JWT authentication and optimized RESTful APIs.",
   tags: [
+    {
+      name: "django",
+      color: "blue-text-gradient",
+    },
     {
       name: "react",
-      color: "blue-text-gradient",
-    },
-    {
-      name: "restapi",
       color: "green-text-gradient",
     },
     {
-      name: "scss",
+      name: "JWT",
       color: "pink-text-gradient",
     },
-  ],
-  image: jobit,
-  source_code_link: "https://github.com/",
-},
-{
-  name: "Trip Guide",
-  description:
-    "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  tags: [
     {
-      name: "nextjs",
+      name: "scikit-learn",
       color: "blue-text-gradient",
     },
     {
-      name: "supabase",
+      name: "postgres",
       color: "green-text-gradient",
     },
-    {
-      name: "css",
-      color: "pink-text-gradient",
-    },
   ],
-  image: tripguide,
-  source_code_link: "https://github.com/",
+  image: movierec,
+  source_code_link: "https://github.com/JustinKim13/Movie-Review-Rec-App",
 },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };

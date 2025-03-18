@@ -7,28 +7,36 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+// languages
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.svg";
+import java from "./tech/java.svg";
+import sql from "./tech/sql.svg";
+import c from "./tech/c.png";
+import django from "./tech/django.svg";
+import postgresql from "./tech/postgresql.svg";
+import flask from "./tech/flask.svg";
+import pytorch from "./tech/pytorch.svg";
+import aws from "./tech/aws.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+// companies
+import entegral from "./company/entegral.jpeg";
+import denari from "./company/denari.png";
+import astro from "./company/astro.png";
+import uwmadison from "./company/uwmadison.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+// projects
+import movierec from "./movierec.png";
+import mlquiz from "./mlquiz.png";
+import deepseekr1 from "./deepseekr1.png";
 
 export {
   logo,
@@ -41,22 +49,27 @@ export {
   close,
   css,
   docker,
-  figma,
   git,
   html,
   javascript,
-  mongodb,
   nodejs,
   reactjs,
-  redux,
-  tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  entegral,
+  denari,
+  astro,
+  uwmadison,
+  python,
+  java,
+  sql,
+  c,
+  django,
+  postgresql,
+  flask,
+  pytorch,
+  aws,
+  movierec,
+  mlquiz,
+  deepseekr1
 };

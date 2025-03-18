@@ -19,7 +19,7 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Justin</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I'm a Computer Science student at UW-Madison...  <br className='sm:block hidden' />
+            I'm a Computer Science student at UW-Madison. This Portfolio is a short summary of my journey in tech.  <br className='sm:block hidden' />
           </p>
         </div>
       </div>
@@ -29,7 +29,7 @@ const Hero = () => {
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
-            <motion.div
+            <motion.div // Framer motion woo hoo
               animate={{
                 y: [0, 24, 0],
               }}
