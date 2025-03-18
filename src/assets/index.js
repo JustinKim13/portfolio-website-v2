@@ -32,6 +32,7 @@ import entegral from "./company/entegral.jpeg";
 import denari from "./company/denari.png";
 import astro from "./company/astro.png";
 import uwmadison from "./company/uwmadison.png";
+import boonlogic from "./company/boonlogic.png";
 
 // projects
 import movierec from "./movierec.png";
@@ -60,6 +61,7 @@ export {
   denari,
   astro,
   uwmadison,
+  boonlogic,
   python,
   java,
   sql,

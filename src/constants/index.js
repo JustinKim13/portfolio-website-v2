@@ -16,6 +16,7 @@ astro,
 entegral,
 denari,
 uwmadison,
+boonlogic,
 python,
 java,
 c,
@@ -146,13 +147,25 @@ const experiences = [
   ],
 },
 {
+  title: "Machine Learning Researcher",
+  company_name: "Boonlogic",
+  icon: boonlogic,
+  iconBg: "#00212a",
+  date: "May 2025 - August 2025",
+  points: [
+    "Incoming Machine Learning Researcher Intern",
+  ],
+},
+{
   title: "Software Engineer",
   company_name: "Denari",
   icon: denari,
   iconBg: "#5032df",
   date: "March 2020 - April 2021",
   points: [
-    "Building a RAG pipeline for accounting firms, leveraging OpenAI embeddings, TimescaleDB, and AWS S3 to ensure accurate citations, enhance real-time knowledge retrieval, and optimize query accuracy.",
+    "Built a RAG pipeline leveraging OpenAI embeddings, TimescaleDB, and AWS S3 for accurate citation generation and real-time knowledge retrieval for accounting firms.",
+    "Created and configured an S3 bucket for storing raw PDFs, and set up IAM user groups with proper access policies for secure data management.",
+    "Implemented data extraction and indexing workflows to optimize query accuracy and retrieval performance across large datasets.",
   ],
 },
 {
@@ -163,7 +176,6 @@ const experiences = [
   date: "Jun 2024 - Jan 2025",
   points: [
     "Led a team of 3 engineers automating data pipelines for 1,400+ sources, increasing processing speed by 28% to handle real-time financial data while ensuring high code quality through regular reviews.",
-    "Utilized GitHub Actions and Docker to simplify CI/CD pipelines, reducing deployment time to internal environments by 45% and improving test coverage in development and staging.",
     "Designed and optimized PostgreSQL database systems for efficient retrieval of time-series data, reducing query time by 36% and scaling to handle increasing data ingestion with minimal latency.",
     "Developed and fine-tuned stock prediction models using BERT embeddings, improving accuracy by 12%.",
   ],
@@ -224,7 +236,7 @@ const projects = [
   source_code_link: "https://github.com/JustinKim13/ml_quizmaker",
 },
 {
-  name: "DeepSeek R1 From Scratch",
+  name: "DeepSeek R1 From Scratch (in progress)",
   description:
     "Built DeepSeek R1 from scratch, optimizing RWKV for efficient training and inference. Trained a scaled-down variant with comparable perplexity and deployed optimized models on AWS with TensorRT acceleration.",
   tags: [
