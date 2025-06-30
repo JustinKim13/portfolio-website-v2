@@ -32,12 +32,11 @@ import entegral from "./company/entegral.jpeg";
 import denari from "./company/denari.png";
 import astro from "./company/astro.png";
 import uwmadison from "./company/uwmadison.png";
-import boonlogic from "./company/boonlogic.png";
 
 // projects
 import movierec from "./movierec.png";
 import mlquiz from "./mlquiz.png";
-import deepseekr1 from "./deepseekr1.png";
+import madsublet from "./madsublet.png";
 
 export {
   logo,
@@ -61,7 +60,6 @@ export {
   denari,
   astro,
   uwmadison,
-  boonlogic,
   python,
   java,
   sql,
@@ -73,5 +71,5 @@ export {
   aws,
   movierec,
   mlquiz,
-  deepseekr1
+  madsublet
 };

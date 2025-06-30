@@ -16,7 +16,6 @@ astro,
 entegral,
 denari,
 uwmadison,
-boonlogic,
 python,
 java,
 c,
@@ -26,7 +25,7 @@ flask,
 pytorch,
 aws,
 mlquiz,
-deepseekr1
+madsublet
 
 } from "../assets";
 
@@ -42,10 +41,6 @@ export const navLinks = [
 {
   id: "works",
   title: "Projects",
-},
-{
-  id: "contact",
-  title: "Contact",
 },
 ];
 
@@ -143,17 +138,9 @@ const experiences = [
   iconBg: "#004a87",
   date: "May 2025 - August 2025",
   points: [
-    "Incoming Software Engineer Intern",
-  ],
-},
-{
-  title: "Machine Learning Researcher",
-  company_name: "Boonlogic",
-  icon: boonlogic,
-  iconBg: "#00212a",
-  date: "May 2025 - August 2025",
-  points: [
-    "Incoming Machine Learning Researcher Intern",
+    "Contributed to an Agile team as a full-stack engineer, building features with Angular, NestJS, and GraphQL.",
+    "Integrated a Pub/Sub listener for RDS events to support real-time sync across estimate negotiation services.",
+    "Spearheaded intern capstone project to build a guided image capture system with OCR, framing feedback, and image validation workflows for integration into Entegral’s Smart Assist platform.",
   ],
 },
 {
@@ -163,9 +150,9 @@ const experiences = [
   iconBg: "#5032df",
   date: "March 2020 - April 2021",
   points: [
-    "Built a RAG pipeline leveraging OpenAI embeddings, TimescaleDB, and AWS S3 for accurate citation generation and real-time knowledge retrieval for accounting firms.",
-    "Created and configured an S3 bucket for storing raw PDFs, and set up IAM user groups with proper access policies for secure data management.",
-    "Implemented data extraction and indexing workflows to optimize query accuracy and retrieval performance across large datasets.",
+    "Built a RAG pipeline using OpenAI embeddings and TimescaleDB for low-latency, citation-grounded retrieval.",
+    "Outperformed GPT-4o-mini by 5% on benchmark accuracy across 2,200+ CPA exam questions in ~30 minutes.",
+    "Configured S3 and IAM policies to securely manage 50K+ tax documents and improve retrieval speed.",
   ],
 },
 {
@@ -207,7 +194,7 @@ const experiences = [
 
 const projects = [
 {
-  name: "ML Multiplayer Quiz Platform",
+  name: "QuizClash",
   description:
     "Developed a real-time multiplayer quiz platform with WebSocket updates and ML-powered personalized question generation using OCR for PDF processing and HuggingFace T5, supporting 100+ concurrent players.",
   tags: [
@@ -233,35 +220,35 @@ const projects = [
     },
   ],
   image: mlquiz,
-  source_code_link: "https://github.com/JustinKim13/ml_quizmaker",
+  source_code_link: "https://github.com/BenW55/BadgerSublease",
 },
 {
-  name: "DeepSeek R1 From Scratch (in progress)",
+  name: "MadSublet",
   description:
-    "Built DeepSeek R1 from scratch, optimizing RWKV for efficient training and inference. Trained a scaled-down variant with comparable perplexity and deployed optimized models on AWS with TensorRT acceleration.",
+    "Built a full-stack sublease platform for UW–Madison students to list, discover, and manage short-term rentals. Implemented a map-based listing view with real-time filtering, secure image uploads via S3 presigned URLs, and user authentication with Firebase. Designed scalable PostgreSQL schema and containerized backend with Spring Boot and Docker.",
   tags: [
     {
-      name: "pytorch",
+      name: "SpringBoot",
       color: "blue-text-gradient",
     },
     {
-      name: "RWKV",
+      name: "React",
       color: "green-text-gradient",
     },
     {
-      name: "AWS",
+      name: "PostgreSQL",
       color: "pink-text-gradient",
     },
     {
-      name: "TensorRT",
+      name: "AWS",
       color: "blue-text-gradient",
     },
   ],
-  image: deepseekr1,
-  source_code_link: "https://github.com/",
+  image: madsublet,
+  source_code_link: "https://github.com/BenW55/BadgerSublease",
 },
 {
-  name: "ML Movie Recommendation App",
+  name: "FlixFinder",
   description:
     "Developed a dynamic movie review platform with instant search, ratings, saving, and an 85%-accurate cosine similarity recommendation system, secured with JWT authentication and optimized RESTful APIs.",
   tags: [
